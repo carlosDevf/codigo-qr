@@ -1,5 +1,10 @@
 # Generador de Códigos QR
 
+## Live Demo
+### [Demo](https://6514d3716668692f5029f316--vermillion-chaja-426839.netlify.app/)
+
+- - -
+
 ![QR Code](./hero.png)
 
 Este es un simple generador de códigos QR desarrollado con Vite Javascript Vanilla,  que te permite crear códigos QR personalizados fácilmente. Los códigos QR son una forma popular de almacenar información, como enlaces a sitios web, texto, números de teléfono, direcciones de correo electrónico y más.
@@ -20,7 +25,7 @@ Asegúrate de tener instalado nodejs en tu sistema antes de ejecutar el programa
 1. Clona este repositorio a tu máquina local.
 
 ```bash
-git clone https://github.com/TuUsuario/tu-repo.git
+git clone https://github.com/carlosDevf/codigo-qr
 ```
 
 ## Stack Tecnológico
@@ -38,3 +43,6 @@ git clone https://github.com/TuUsuario/tu-repo.git
 
 ![QR Code](./codigo1.svg)
 ![QR Code](./codigo2.svg)
+
+
+## Idea original de [Fronted Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
