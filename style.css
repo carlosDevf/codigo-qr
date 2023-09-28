@@ -1,0 +1,15 @@
+:root {
+  font-family: "Outfit", sans-serif;
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --gray: hsl(210, 24%, 16%);
+  --dark-gray: hsl(209, 23%, 22%);
+
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: var(--light-gray);
+}
+
+h2 {
+  color: var(--gray);
+}

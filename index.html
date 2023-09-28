@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <script src="./main.js" defer type="module"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de QR</title>
+  </head>
+  <body>
+    <div class="grid place-content-center w-screen h-screen p-2">      
+      <div class="max-w-sm p-2 bg-white border border-gray-200 rounded-lg shadow">
+        <div class="flex justify-center w-[300px]">
+          <picture id="qr-picture">
+            <img src="/images/image-qr-code.png" alt="Vite Logo" class="w-screen rounded-2xl" />            
+          </picture>
+        </div>
+        <div class="mt-4 mb-8">
+          <h2 class="text-center text-2xl font-bold mb-4">Generador de QR</h2>
+          <form>
+            <input 
+              name="qr"
+              placeholder="Escribe el texto" 
+              class="w-full p-2 border border-gray-200 rounded-lg shadow"
+            />
+            <div class="mb-4">
+              <h3 class="text-center mt-8">Personaliza tu código</h3>
+              <div class="mt-4 flex justify-center gap-4">
+                <label class="flex align-middle">Fondo
+                  <input name="color1" type="color" value="#3685FF" />
+                </label>
+                <label class="flex align-middle">Color
+                  <input name="color2" type="color" value="#ffffff" />
+                </label>
+              </div>            
+            </div>
+            <div class="flex gap-4">
+              <button type="submit" class="w-full mt-4 p-2 bg-red-500 text-white rounded-lg shadow">Generar</button>
+              <button id="download" type="button" class="w-full mt-4 p-2 bg-blue-500 text-white rounded-lg shadow">Descargar</button>
+            </div>
+          </form>
+        </div>
+      </div>      
+    </div>    
+  </body>
+</html>
